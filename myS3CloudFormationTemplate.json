@@ -2,7 +2,9 @@
     "AWSTemplateFormatVersion": "2010-09-09",
     "Resources": {
         "S3Bucket": {
-            "Type": "AWS::S3::Bucket"
+            "Type": "AWS::S3::Bucket",
+            "Properties": {
+                "BucketName": "CloudFormationTemplate-S3Bucket-ek23"
         }
     },
     "Outputs": {
