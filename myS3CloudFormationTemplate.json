@@ -4,7 +4,7 @@
         "S3Bucket": {
             "Type": "AWS::S3::Bucket",
             "Properties": {
-                "BucketName": "CloudFormationTemplate-S3Bucket-ek23"
+                "BucketName": "CloudFormationTemplate-S3Bucket-ek2312390"
             },
         },
     },
